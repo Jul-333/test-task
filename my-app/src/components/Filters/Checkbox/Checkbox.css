@@ -1,0 +1,9 @@
+.checkbox-block {
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-end;
+}
+
+.checkbox-register {
+    margin-left: 15px;
+}
