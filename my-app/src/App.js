@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import getDataAPI from "./API/getDataAPI";
 import Table from "./components/Table/Table";
-import filter from "./helpers/filter";
+import filter from "./utils/helpers/filter";
 import FilterBlock from "./components/FilterBlock/FilterBlock";
 import "./App.css";
 

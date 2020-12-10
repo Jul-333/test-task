@@ -12,7 +12,7 @@ const Checkbox = ({ onChangeInput, register }) => {
         checked={register}
         onChange={(event) => onChangeInput(event)}
       ></input>
-      <div className="stlchek"></div>
+      <div className="fake-checkbox"></div>
     </label>
   );
 };

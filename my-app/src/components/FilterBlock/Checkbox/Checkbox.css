@@ -9,7 +9,7 @@
     display: none;
 }
 
-.stlchek {
+.fake-checkbox {
     cursor: pointer;
     display: inline-block;
     border: 2px solid #1c1e25;
@@ -22,11 +22,11 @@
     margin-left: 15px;
 }
 
-.stlchek:hover {
+.fake-checkbox:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 
-.stlchek:before {
+.fake-checkbox:before {
     cursor: pointer;
     content: "";
     background: grey;
@@ -39,6 +39,6 @@
     left: 2px;
 }
 
-input:checked + .stlchek:before {
+input:checked + .fake-checkbox:before {
     opacity: 1;
 }
