@@ -10,13 +10,7 @@ const Table = ({ data }) => {
 
   return (
     <table className="table" align="left">
-      <thead align="center">
-        <tr className="tr" align="center">
-          <th colSpan="2"> DATA OUTPUT </th>
-        </tr>
-      </thead>
       <tbody>{renderTableBody()}</tbody>
-      <tfoot></tfoot>
     </table>
   );
 };
