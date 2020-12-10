@@ -1,4 +1,20 @@
 .input-search {
     width: 243px;
     height: 25px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #5c5c5c;
+    box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+    filter: grayscale(1);
+}
+
+.input-search:-internal-autofill-selected {
+   border: 1px solid grey;
+   border-bottom: 2px solid #5c5c5c;
+   box-shadow: none;
+}
+
+.input-search:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }

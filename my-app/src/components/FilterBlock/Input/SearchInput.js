@@ -7,6 +7,7 @@ const SearchInput = ({ onChangeInput, value }) => {
       type="text"
       className="input-search"
       name="value"
+      placeholder="Enter a word or number..."
       onChange={(event) => onChangeInput(event)}
       value={value}
       autoFocus

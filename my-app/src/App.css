@@ -1,0 +1,9 @@
+button,
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.loader {
+    margin: auto;
+    margin-top: calc(50vh - 50px);
+}

@@ -6,4 +6,39 @@
 
 .checkbox-register {
     margin-left: 15px;
+    display: none;
+}
+
+.stlchek {
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid #1c1e25;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right: 4px;
+    margin-left: 15px;
+}
+
+.stlchek:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.stlchek:before {
+    cursor: pointer;
+    content: "";
+    background: grey;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+input:checked + .stlchek:before {
+    opacity: 1;
 }

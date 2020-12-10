@@ -13,6 +13,7 @@ code {
 #root {
   display: flex;
   max-width: 1200px;
+  height: 100vh;
   margin: auto;
   padding-top: 30px;
 }

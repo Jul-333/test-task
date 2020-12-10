@@ -7,11 +7,11 @@ const FilterButtons = ({ onClickFilter, value }) => {
   const disabledSubstring = buttonAvailability(value, "substring");
 
   return (
-    <div>
-      <span>Filter by </span>
+    <div className="button-filter-block">
+      <span className="button-filter-span">Filter by </span>
       <button
         type="button"
-        className="button-filter"
+        className="button-filter btn-word-length"
         data-name="word-length"
         disabled={disabledWordLength}
         onClick={(event) => onClickFilter(event)}

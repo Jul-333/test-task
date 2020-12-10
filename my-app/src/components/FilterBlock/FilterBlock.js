@@ -15,8 +15,8 @@ const FilterBlock = ({
   return (
     <div className="filters-block">
       <FilterButtons value={value} onClickFilter={onClickFilter} />
-      <SearchInput value={value} onChangeInput={onChangeInput} />
       <Checkbox register={register} onChangeInput={onChangeInput} />
+      <SearchInput value={value} onChangeInput={onChangeInput} />
       <ResetButton onClickReset={onClickReset} />
     </div>
   );

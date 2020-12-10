@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 261px;
-    height: 115px;
-    background: red;
+    width: 350px;
+    height: 170px;
+    /* background: red; */
 }

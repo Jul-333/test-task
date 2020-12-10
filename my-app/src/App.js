@@ -57,7 +57,7 @@ class App extends Component {
     } = this.state;
     return (
       <>
-        {isLoading && <p>Loading...</p>}
+        {isLoading && <p className="loader">Loading...</p>}
         {!isLoading && initialData && (
           <>
             <Table data={filteredData} />
