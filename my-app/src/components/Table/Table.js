@@ -5,7 +5,7 @@ import "./Table.css";
 const Table = ({ data }) => {
   const renderTableBody = () =>
     data.map((element, index) => {
-      return <Row key={index} index={index + 1} element={element} />
+      return <Row key={index} index={index + 1} element={element} />;
     });
 
   return (
@@ -15,7 +15,6 @@ const Table = ({ data }) => {
           <th colSpan="2"> DATA OUTPUT </th>
         </tr>
       </thead>
-
       <tbody>{renderTableBody()}</tbody>
       <tfoot></tfoot>
     </table>
